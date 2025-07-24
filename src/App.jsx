@@ -17,7 +17,7 @@ export default function App() {
           element={<Dashboard/>}
           // element={isAuthenticated ? <Dashboard /> : <Navigate to="/" />}
         />
-        {/* <Route path="/register" element={<Register/>}/> */}
+        <Route path="/register" element={<Register/>}/>
       </Routes>
     </Router>
   );
